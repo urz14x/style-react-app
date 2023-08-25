@@ -1,0 +1,23 @@
+.song-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #252525;
+    padding: 1.15rem;
+    border-radius: 0.5rem;
+
+    font-family: "Euclid Circular A";
+    box-shadow: 0 45px 75px rgba(58, 35, 91, 0.10);
+    gap: 1em;
+}
+.song-img {
+    width: 50px;
+    height: 50px;
+}
+.song-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1px;
+}
